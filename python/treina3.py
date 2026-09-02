@@ -5,7 +5,7 @@ chunks=[[0.0 for x in range(8)]for x in range(qtdimagens)] #array de representac
 
 #carregamento das imagens
 for i in range(qtdimagens):
-    with open(f"imagens/amostra{i:04d}.bmp","rb")as f:buf=f.read()
+    with open(f"imagens/amostra{i:04d}.jpg","rb")as f:buf=f.read()
 
     tamanho=len(buf)//8
     for h in range(8):
